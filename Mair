@@ -3,7 +3,7 @@
     "name" : "Mair",
     "x" : "4",
     "y" : "16",
-    "url" : "http://game1.margonem.pl/obrazki/itemy/eve/ka-kotek.gif",
+    "url" : "http://i.imgur.com/KsfLQ71.gif",
     "dialog" :
     {
         "0" :
@@ -16,7 +16,7 @@
         ],
         "1" :
         [
-            "Oj, nawet nie wiesz jak bardzo się mylisz. W ksiażkach są ogromne pokłady wiedzy, mnóstwo, naprawdę mnóstwo cennych informacji. A poza tym przychodzi tu dużo ludzi, wymieniają się plotkami, opowiadają o sytuacji w innych miastach. Mogłabym godzinami słuchać o tym co mają do powiedzenia. Więc wiesz, jeśli masz jakieś ciekawe ploteczki to bardzo chętnie je usłyszę.",
+            "Oj, nawet nie wiesz jak bardzo się mylisz. W ksiażkach są ogromne pokłady wiedzy, mnóstwo, naprawdę mnóstwo cennych informacji. A poza tym przychodzi tu dużo ludzi, wymieniają się plotkami, opowiadają o sytuacji w innych miastach. Mogłabym godzinami słuchać o tym co mają do powiedzenia. Więc wiesz, jeśli masz jakieś ciekawe ploteczki to bardzo chętnie je poznam.",
             "Aha... Jak będę miał coś ciekawego to na pewno przyjdę. ->5",
             "Nie lubię plotek. ->END"
         ],
@@ -29,7 +29,7 @@
         ],
          "3" :
         [
-            "[ Kobieta uśmiechnęła się. Chociaż był to uśmiech ciepły i promienny, to jednak w jej spojrzeniu było coś niepokojącego. Dziwna przenikliwość w jej spojrzeniu sprawiła, że po plecach przebiegł ci dreszcz niepokoju. ]",
+            "[ Kobieta uśmiechnęła się. Chociaż był to uśmiech ciepły i promienny, to jednak w jej sposobie bycia coś wzbudzało niepokój. Dziwna przenikliwość w spojrzeniu kobiety sprawiła, że po plecach przebiegł ci dreszcz niepokoju. ]",
             "Dalej ->4"
         ],
          "4" :
@@ -44,7 +44,7 @@
         ],
          "6" :
         [
-            "Mam tu kilka prac mistrzowskich oraz arcymistrzowskich. Muszę jednak zaznaczyć, że to bardzo zaawansowana magia, często opisane tu zaklęcia są rzeczami rewolucyjnymi dlatego nie próbuj ich wykorzystywać jeśli nie posiadasz odpowiedniej mocy. Nie biorę odpowiedzialności za skutki twoich działań. Pozycje dotyczące którego zagadnienia mam przynieść?",
+            "Mam tu kilka prac mistrzowskich oraz arcymistrzowskich. Muszę jednak zaznaczyć, że to bardzo zaawansowana magia. Często opisane tu zaklęcia są rzeczami rewolucyjnymi dlatego nie próbuj ich wykorzystywać jeśli nie posiadasz odpowiedniej mocy. Nie biorę odpowiedzialności za skutki twoich działań. Pozycje dotyczące którego zagadnienia mam przynieść?",
             "Ewokacji. ->8",
             "Poznania. ->9",
             "Przywrócenia. ->10",
@@ -68,12 +68,12 @@
         ],
         "10" :
         [
-            "O Przywróceniu, tak? Hmm... Pamiętam, że paru magów praktykuje tę dziedzinę. Na razie mam tylko zapiski Readrera i przyznam, że chciałabym wiedzieć w jakich okolicznościach powstały. Są <a href='https://drive.google.com/file/d/1oE47IwksiW74CjjJ7APc5STAuN9bM2sS/view'_blank'>tutaj</a>.",
+            "O Przywróceniu, tak? Hmm... Pamiętam, że paru magów praktykuje tę dziedzinę. Na razie mam tylko zapiski Readrera i przyznam, że chciałabym wiedzieć w jakich okolicznościach powstały. Są <a href='https://drive.google.com/file/d/1oE47IwksiW74CjjJ7APc5STAuN9bM2sS/view' target=_blank'>tutaj</a>.",
             "Hmmm... Ciekawe. ->END"
         ],
         "11" :
         [
-            "Na temat Zniszczenia o dziwo nie napisano zbyt wiele, widocznie praktykujący ją wolą działać bojowo niż naukowo. A szkoda, wielka szkoda. Mam tutaj  <a href='https://drive.google.com/file/d/1yHUjcIS8xRyYOrqH495q36lTt_fPODQP/view' target='_blank'>zachowane</a> zapiski niejakiego Astratasa, może pomogą ci w twoich poszukiwaniach.",
+            "Na temat Zniszczenia o dziwo nie napisano zbyt wiele, widocznie praktykujący ją wolą działać bojowo niż naukowo. A szkoda, wielka szkoda. Mam tutaj zachowane <a href='https://drive.google.com/file/d/1yHUjcIS8xRyYOrqH495q36lTt_fPODQP/view' target='_blank'>zapiski</a> niejakiego Astratasa, może pomogą ci w twoich poszukiwaniach.",
             "Z całą pewnością je wykorzystam. ->END"
         ]
     }
