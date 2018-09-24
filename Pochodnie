@@ -1,0 +1,73 @@
+[
+{
+    "name" : "Pochodnie",
+    "x" : "53",
+    "y" : "21",
+    "url" : "http://emargo.pl/margonem/obrazki/npc/obj/pochodnia-haw04.gif",
+    "dialog" :
+    {
+        "0" :
+        [
+            "Pochodnie roztaczaczają dookoła siebie ciepły, żółtawy blask.",
+            "Koniec ->END"
+        ]
+    }
+},
+{
+    "name" : "Pochodnia",
+    "x" : "51",
+    "y" : "21",
+    "url" : "http://emargo.pl/margonem/obrazki/npc/obj/pochodnia-haw03.gif",
+    "dialog" :
+    {
+        "0" :
+        [
+            "Pochodnie roztaczaczają dookoła siebie ciepły, żółtawy blask.",
+            "Koniec ->END"
+        ]
+    }
+},
+{
+    "name" : "Lampion",
+    "x" : "55",
+    "y" : "30",
+    "url" : "http://emargo.pl/margonem/obrazki/itemy/kon/ark-lamp-zlo.gif",
+    "dialog" :
+    {
+        "0" :
+        [
+            "Lampion lekko kołysze się na wietrze.",
+            "Koniec. ->END"
+            ]
+    }
+},
+{
+    "name" : "Lampion",
+    "x" : "69",
+    "y" : "46",
+    "url" : "http://emargo.pl/margonem/obrazki/itemy/kon/ark-lamp-zlo.gif",
+    "dialog" :
+    {
+        "0" :
+        [
+            "Lampion lekko kołysze się na wietrze.",
+            "Koniec. ->END"
+            ]
+
+    }
+},
+{
+    "name" : "Lampion",
+    "x" : "71",
+    "y" : "34",
+    "url" : "http://emargo.pl/margonem/obrazki/itemy/kon/ark-lamp-zlo.gif",
+    "dialog" :
+    {
+        "0" :
+        [
+            "Lampion lekko kołysze się na wietrze.",
+            "Koniec. ->END"
+            ]
+    }
+}
+]
