@@ -1,0 +1,141 @@
+[
+
+{
+
+    "name" : "Dalassa",
+
+    "x" : "63",
+
+    "y" : "33",
+
+    "url" : "https://www.margonem.pl/obrazki/npc/kob/doryda.gif",
+
+    "dialog" :
+
+    {
+        "0" :
+        [
+            "[ Widzisz dość młodą, rudowłosą kobietę z zapałem wygrywającą na lutni skoczną melodię. Przy każdym refrenie przytupuje w rytm piosenki obserwując tańczących ludzi. Co jakiś czas jej wzrok zatrzymywał się na jednym z siedzacych przy stole mężczyzn. Szybko zauważyła, że na nią patrzysz, uśmiechnęła się i puściła ci oko. ]",
+
+            "Dalej -> 1",
+        ],
+        "1" :
+        [
+
+            "Jakże nie mam smutną być?
+           Za starego każą iść
+           Czasu już niewiele, jeszcze dwie niedziele 
+           Mogę miły z Tobą być.",
+
+            "[ Podchodzę bliżej. ] ->2",
+            "[ Słucham dalej czekając aż skończy. ] ->8",
+            "[ Odchodzę. ] ->END"
+
+        ],
+        "2" :
+        [
+            "[ Dziewczyna spojrzała porozumiewawczo na barda. Kevan chwycił swój instrument momentalnie podejmując rytm i kontynuując piosenkę. Dalassa odeszła na bok, gestem zapraszając cię byś poszedł za nią. Po drodze zagarnęła ze stołu butelkę miodu.",
+            "[ Idziesz za nią. ] ->3",
+            "[ Odwracasz się na pięcie i odchodzisz. ] ->END"
+        ],
+        "3" :
+        [
+            "Masz szczęście, że musiałam odpocząć, inaczej czekałbyś aż skończę występ, a potem dostał konkretną burę. Słucham, co cię do mnie przywiodło?",
+            "Ciekawość, rzadko widuje się kobiety-bardów. ->4"
+            "Yyyy... Co to za piosenka, którą grałaś? -> 16"
+            "Kim jest ten mężczyzna na którego ciągle zerkasz? ->11"
+            "Po prostu chciałem popatrzeć. Nie przeszkadzam, odpoczywaj. ->END"
+        ],
+        "4" :
+        [
+            "I co, może jestem gorsza od Kevana czy Felkissiana? Kobiety już dawno przestały tylko siedzieć w domu i wychowywać dzieci. Skoro mogą być magiem, łowcą potworów i dowódcą wojsk to dlaczego nie bardem?",
+            "Spokojnie, spokojnie. Nie to miałem na myśli. Po prostu nadal to nieczęsty widok. ->5"
+            "Co tak agresywnie, jejku. Już sobie idę. ->END"
+        ],
+        "5" :
+        [
+            "Jestem bardzo wrażliwa na tym punkcie. Nie dość, że pochodzę z wioski na bagnach to jeszcze nie jestem mężczyzną. Niektórzy myślą, że bardka to tylko pozory i można bez ogródek zabrać mnie do łóżka. Phi.",
+            "Pochodzisz z Mythar? Nie widzę na twoim ciele łusek. ->6"
+            "No tak, niektórzy są niewychowanymi bucami. ->END"
+        ],
+        "6" :
+        [
+            "Los łaskawie się ze mną obszedł, widzisz? Łuski mam na plecach i karku. Tu jestem wśród swoich więc nie muszę ukrywać mojego pochodzenia, a wśród obcych wystarczy unikać sukienek z wyciętymi plecami i rozpuścić włosy.",
+            "Pewnie Felkissian musi ci bardzo zazdrościć. ->7"
+            "Masz ładną szyję... ->16"
+            "Faktycznie, szczęście. ->END"
+        ],
+        "7" :
+        [
+            "Trochę, ale już to sobie wyjaśniliśmy dawno temu. Oho, powinnam wracać, tę piosenkę wykonuje się w duecie. Złap mnie później to jeszcze porozmawiamy",
+            "Nie zatrzymuję! ->END"
+        ],
+        "8" :
+        [
+            "Z tamtej strony jeziora
+            Stoi lipka zielona
+            A na tej lipce, na tej zieloniutkiej
+            Trzej ptaszkowie śpiewają",
+            "[ Słucham dalej. ] ->9"
+            "[ Odchodzę. ] ->END"
+        ],
+        "9" :
+        [
+            "[Kobieta ukłoniła się i zawołała do Kevana. Ten dopił wino, które miał w kielichu i sięgnął po instrument. Zaczął grać kolejną piosenkę zaś Dalassa usiadła na wolnym miejscu. Gestem zaprosiła cię byś usiadł obok.",
+            "[ Podchodzę bliżej. ] ->10
+            "[ Kręcę przecząco głową i odchodzę w kierunku stołu do gry. ]->END"
+        ],
+        "10" :
+        [
+            "Dziękuję, że zaczekałeś. To miłe gdy widz szanuje występ artysty. Co cię do mnie sprowadza?",
+            "Dobrego artysty zawsze miło posłuchać. Przywiodła mnie ciekawość, kim jest ten jasnowłosy mężczyzna? ->11"
+            "Chciałem tylko pogratulować dobrego występu. A teraz wybacz, ale chciałbym kogoś prosić do tańca. ->END"
+        ],
+        "11" :
+        [
+            "To Tanon. Wagabunda tak jak i ja, podróżujemy razem od granic z Hironią. A co?",
+            "Hirończyk. Bo wygląda dość... Nietypowo. ->12"
+            "Uważam, że Hironia powinna zostać zniszczona. ->END"
+        ],
+        "12" :
+        [
+            "To prawda, urodę ma nietypową nawet jak na Hirończyka. I powiem Ci, że z całą pewnością nie jest człowiekiem. Aczkolwiek chociaż podróżujemy razem już dość długo to nie chciał mi wyjawić kim byli jego rodzice.",
+            "Dlaczego? ->13"
+            "Skoro to tajemnica lepiej zostawić ten temat. ->END"
+        ],
+        "13" :
+        [
+            "Dlaczego tak uważam czy dlaczego nie chce mi powiedzieć?",
+            "Dlaczego tak myślisz? ->14"
+            "Ta druga opcja. ->END"
+        ],
+        "14" :
+        [
+            "Jak spędzasz z kimś dużo czasu to zaczynasz zauważać różne nawyki czy zwyczaje. Tanon nigdy nie je mięsa, czasami zachowuje się też jakby nigdy w życiu nie widział niektórych rzeczy czy pierwszy raz słyszał o rzeczach oczywistych. Rzadko, ale się zdarza. Poza tym potrafię go przyłapać jak mówi do wiatru. Co prawda jest magiem, a magowie mają swoje dziwactwa, ale to i tak nietypowe. Przyjrzyj się też jego zębom jak będziesz miał okazję.",
+            "Nie wypiłaś przypadkiem za dużo? Zrobiłaś się bardzo rumiana na twarzy. ->15"
+            "Idę sprawdzić, zaczekaj tutaj. ->END"
+        ],
+        "15" :
+        [
+            "Może troszeczkę. Hihi, a teraz wracam grać. Zabwa trwa!",
+            "Oho, to będzie ciekawe słuchowisko. ->END"
+        ],
+        "16" :
+        [
+            "Lipka, jedna z ciekawszych piosenek jakie usłyszałam w trakcie podróży. Będziemy ją jeszcze grali więc usłyszysz całość.",
+            "Nie mogę się doczekać. ->END"
+        ],
+        "17" :
+        [
+            "SŁUCHAM!? Masz czelność coś takiego sugerować?",
+            "Nie, nie, nie. Po prostu... Chciałem być uprzejmy... ->17"
+            "Powiedzieć komplement to jak obrazić. Idę szukać kogoś, kto je doceni. ->END"
+        ],
+        "18" :
+        [
+            "To zachowaj te uprzejmości dla siebie.",
+            "Przepraszam ->END"
+        ]
+    }
+}
+]
