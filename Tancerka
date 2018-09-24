@@ -1,0 +1,36 @@
+[
+{
+    "name" : "Tancerka",
+    "x" : "58",
+    "y" : "32",
+    "url" : "http://emargo.pl/margonem/obrazki/npc/kob/cyganka3.gif",
+    "dialog" :
+    {
+        "0" :
+        [
+            "[ Ciemnowłosa dziewczyna tańczyła furkocząc zamaszyście kolorową spódnicą. Nie wyglądała na miejscową, miała ciemniejszą karnację i inny kształt oczu. Poruszała się wyjątkowo zgrabnie i energicznie podzwaniając przy każdym kroku bransoletką z dzwoneczkami zawieszoną przy kostce.",
+            "[ Obserwujesz ją dalej. ] ->1",
+            "Masz ochotę zatańczyć ze mną? ->2",
+            "Obcy nie są tu milie widziani... ->END"
+        ],
+        "1" :
+        [
+            "[ Zauważyła to. Uśmiechnęła się i stanęła przodem do ciebie nie przestając poruszać się w rytm muzyki. ]",
+            "[ Podchodzisz bliżej również wczuwając się w muzykę. Wyciągam do niej dłoń. ] ->2",
+            "[ Patrzysz nadal, nie wykonując żadnej innej czynności. ] ->3",
+            "[ Odchodzisz. ] ->END"
+        ],
+        "2" :
+        [
+            "[ Tancerka chwyta twoją rękę i pociąga cię w skaczący tłum. Wirując, kręcąc się i śmiejąc spędzacie razem pół wieczoru. W końcu wyraźnie zmęczona kłania ci się i odwraca. Tracisz ją z oczu na ułamek sekundy, a ona momentalnie znika. Na ziemi leży tylko mała bransoletka ze srebrnymi dzwoneczkami.",
+            "[ Podnoszę ją i zabieram ze sobą. ] ... ->END",
+            "[ Zostawiam ją. Kto wie kim była ta dziewczyna. ] ->END"
+        ],
+        "3" :
+        [
+            "[ Wykonuje kilka zachęcających gestów. Mruga zalotnie, przywołuje Cię gestem dłoni. W końcu jednak odwraca się ignorując cię zupełnie. Inny mężczyzna podchodzi do niej i razem idą w tan.",
+            "Koniec ->END"
+        ]
+    }
+}
+]
