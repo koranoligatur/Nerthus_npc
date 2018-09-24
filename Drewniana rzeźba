@@ -1,0 +1,22 @@
+[
+{
+    "name" : "Drewniana rzeźba",
+    "x" : "52",
+    "y" : "20",
+    "url" : "http://i.imgur.com/QFB9sNl.png",
+    "dialog" :
+    {
+        "0" :
+        [
+            "[ Widzisz ogromną, drewnianą figurę otoczoną pochodniami i zapalonymi świeczkami. Pieczołowicie wyrzeźbione detale ukazują twarze ludzi, potworów, zwierząt w różnych stadiach życia. Część z nich uśmiecha się, niektóre są wyraźnie przerażone, wyglądają jakby widziały piekło na ziemi. Pomiędzy tym wszystkim widzisz ukryte głowy węży wijące się pomiędzy poszczególnymi postaciami, niekiedy wychodzące pomiędzy kosmykami włosów. ]",
+            "[ Przyglądasz się bliżej ] ->1",
+            "[ Odchodzisz. Nie chcesz mieć z tym nic wspólnego. ] ->END"
+        ],
+        "1" :
+        [
+            "[ Aura posągu jest złowroga, zimna i nieco oślizgła. Czujesz, że coś jest nie tak, ale nie masz w tej chwili jak dokładniej tego sprawdzić. Co chwila ktoś tu przychodzi, a nawet gdy przez moment jesteś sam to czujesz na sobie baczne spojrzenie Felkissiana. ] ",
+            "Wrócę tu później. ->END"
+        ]
+    }
+}
+]
