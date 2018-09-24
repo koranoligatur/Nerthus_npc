@@ -1,0 +1,100 @@
+[
+{
+    "name" : "Tanon",
+    "x" : "65",
+    "y" : "40",
+    "url" : "http://i.imgur.com/g7OZ69Y.gif",
+    "collision" : true,
+    "dialog" :
+    {
+        "0" :
+        [
+            "O, #NAME. Też chcesz spróbować nalewki z Hironii?",
+            "Jesteś Hirończykiem? ->1",
+            "Wolę nie, jeszcze się czymś zarażę. ->END"
+        ],
+        "1" :
+        [
+            "I tak, i nie. Urodziłem się tam, ale nie jestem spokrewniony z nikim w tamtejszych stronach.",
+            "A co cię przywiało w te strony? ->2",
+            "Jak tam jest? To prawda, że są tam dziewczynki od małego wychowywane na trucicielki? Podobno podaje im się mleko z toksynami od urodzenia, by nawet pocałunek mógł zabić. ->6",
+            "Twoje szczęście. ->END"
+        ],
+         "2" :
+        [
+            "Nuda, chęć zobaczenia świata i poszukiwania.",
+            "Poszukiwania czego? ->3",
+            "Czyli nie dzieli nas tak wiele. Daj tej nalewki. ->9",
+            "Wagabunda. Porozmawiamy później, ktoś mnie woła. ->END"
+        ],
+         "3" :
+        [
+            "Szukam kogoś, pewnej osoby. Wiem tylko, że jest ze mną spokrewniona i ma bardzo charakterystyczną aurę. Musisz niestety przyznać, że to skromny opis przez co zadanie nie należy do najprostszych. Na szczęście po drodze spotkałem Dalassę, we dwójkę zawsze raźniej.",
+            "Kim właściwie jesteś? ->4",
+            "Coś was łączy? ->11",
+            "Powodzenia w dalszej drodze. ->END"
+        ],
+         "4" :
+        [
+            "Magiem, a konkretniej aeromantą. Specjalizuję się w Odrzuceniu.",
+            "Nie do końca o to mi chodziło. Widzę, że masz dość nietypowe zęby jak na człowieka. ->5",
+            "O, to może lepiej nie będę cię denerwował. ->END"
+        ],
+         "5" :
+        [
+            "Jestem półelfem. I na tym zakończmy temat.",
+            "Wszyscy są dziś strasznie drażliwi. ->END"
+        ],
+         "6" :
+        [
+            "Tak, a elanckie wiedźmy porywają dzieci. Nie wierz w każdą bajeczkę jaką usłyszysz, bo większość z nich to stek bzdur.",
+            "A co z oszalałymi alchemikami? Podobno wymordowali całą wioskę żeby przeprowadzać eksperymenty. ->7",
+            "Tylko, że wiedźmy porywają dzieci... ->END"
+        ],
+         "7" :
+        [
+            "[ Wyraz twarzy mężczyzny zmienił się, nagle spoważniał. Sięgnął po butelkę nalewki, jakby chcąc sobie kupić trochę czasu. ",
+            "Dalej ->8"
+        ],
+        "8" :
+        [
+            "To akurat prawda. Nie licz jednak, że ktoś będzie chciał na ten temat z tobą rozmawiać. Każdy kraj ma swoje ciemne epizody w historii.",
+            "Tak... Wojna nigdy się nie zmienia. ->END"
+        ],
+        "9" :
+        [
+            "Czyli intuicja mnie nie myliła i też jesteś poszukiwaczem przygód. Ha, na coś przydały się te kości.",
+            "Jakie kości? ->10",
+            "Polej i opowiadaj co widziałeś na szlaku. ->END"
+        ],
+        "10" :
+        [
+            "Znalezione przy drodze. Ktoś zrobił z tego amulet, ale mniejsza z tym. Chodź, pijemy.",
+            "Tak, mniejsza... ->END"
+        ],
+        "11" :
+        [
+            "To moja przyjaciółka. Ona pilnuje mnie, ja jej, czasami odpędzając niechcianych adoratorów.",
+            "Nie jesteś zazdrosny? Albo skąd wiesz, że ona nie jest zazdrosna o ciebie? ->12",
+            "Taki przyjaciel to skarb. ->END"
+        ],
+         "12" :
+        [
+            "Zdradzę Ci małą tajemnicę, ale obiecaj że nikomu nie powiesz.",
+            "Oczywiście, słowo podróżnika. ->13",
+            "Może lepiej nie, alkohol za bardzo rozwiązał ci język. ->END"
+        ],
+         "13" :
+        [
+            "Dalassa nie lubi mężczyzn, woli się umawiać z kobietami. To też jeden z powodów dla których Felkissian udaje, że jest jedynym mytharskim bardem i jedna z przyczyn dla których ruszyła w drogę.",
+            "No tak, w małym miasteczku to może być poważny problem. ->14",
+            "Przykra sprawa. ->13"
+        ],
+         "14" :
+        [
+            "No, skończmy temat. Twoje zdrowie! Za podróże i przygody!",
+            "Za przygody! ->END"
+        ]
+    }
+}
+]
