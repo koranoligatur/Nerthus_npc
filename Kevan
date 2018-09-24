@@ -1,0 +1,87 @@
+[
+{
+    "name" : "Kevan",
+    "x" : "37",
+    "y" : "52",
+    "url" : "http://emargo.pl/margonem/obrazki/npc/bur/npc232.gif",
+    "collision" : true,
+    "dialog" :
+    {
+        "0" :
+        [
+            "O, #NAME! Nie spodziewałem się tu ciebie. Festyn czy jakieś interesy? Czy może trafiłeś zupełnie przypadkiem?",
+            "Sprawy... osobiste. Przyjechałeś z Dalassą? ->1",
+            "No nie, znowu ty. ->END"
+        ],
+        "1" :
+        [
+            "Tak i nie. Co roku zaglądam tu na święto jesieni. Moja siostra bardzo to lubiła.",
+            "Udało ci się znaleźć jakiś trop? ->2",
+            "Masz może jakieś nowe opowieści? ->4",
+            "Powinieneś wreszcie zostawić przeszłość za sobą. ->END"
+        ],
+        "2" :
+        [
+            "Nic, bez skutku. Nadal żadnego śladu Drzewa, żadnego śladu jej... Ale się nie poddam!",
+            "Jeśli na coś natrafię spróbuję od razu cię o tym poinformować. ->3",
+            "Naprawdę powinieneś odpuścić. ->END"
+        ],
+        "3" :
+        [
+            "Dziękuję, to wiele dla mnie znaczy",
+            "Koniec ->END"
+        ],
+        "4" :
+        [
+            "Mam kilka historii o duchach, idealne na zbliżające się długie, jesienne noce. Uzurpator, zjawa na murach czy może o szwaczce, którą spotkał ciężki los?",
+            "Chcę poznać historię Uzurpatora. ->5",
+            "Ciekawi mnie tajemnicza zjawa. ->7",
+            "Chętnie posłucham o tej szwaczce. ->9",
+            "Nie lubię opowieści o duchach. ->END"
+        ],
+        "5" :
+        [
+            "Gregorius Emperor ongiś władał podziemnym światem i do tej pory nie wiadomo, na skutek jakiej klątwy ten straszliwy monarcha porzucił materialną, wampiryczną postać, by nawiedzać powierzchnię Ziemi w formie widmowej. Teraz również pojawia się nieczęsto i nadal unika słonecznego światła...",
+            "[ Słucham dalej. ]->6",
+            "[ Odchodzę. ] ->END"
+        ],
+        "6" :
+        [
+            "Spotkać go można zazwyczaj w miejscach starożytnych bitew i grobowcach. Widywany był w Opuszczonej Twierdzy i Nawiedzonym Jarze. Wiele jego projekcji spotykano w Tristam, lecz szczególnie upodobał sobie pustynne tereny wokół Tuzmer, a najbardziej Przybytek Bogini Wojny, Sechmi. Tam, w dymie kadzideł i oparach krwi składanych ofiar zbiera siły, by poprowadzić hordy nieumarłych przeciw ludziom.",
+            "Chcę usłyszeć jeszcze inną opowieść. ->4",
+            "Dzięki, to było niepokojące. ->END"
+        ],
+        "7" :
+        [
+            "Widmo kobiety ukazujące się najczęściej na blankach murów w Ithan gdzie snuje się bez celu, napadając tylko niekiedy znienacka na przechodniów i skrzecząc im prosto do ucha: 'Cisza!'. Niekiedy nawiedza Mythar, wówczas nad całą okolicą zapada groza, bagna pokrywają się szronem, milkną ptasie śpiewy, a zmiennocieplne gady i płazy zastygają w bezruchu.",
+            "[ Słucham dalej. ]->8",
+            "[ Odchodzę. ] ->END"
+        ],
+        "8" :
+        [
+            "Uzurpatorka, usiłowała przejąć władzę nad Margonem. Z całego serca nienawidziła trubadurów, poetów i wieszczy, którzy na znak protestu rzucali w ogień pergaminy ze swoimi wierszami i odchodzili do bezimiennych krain, wiodąc tam pustelniczy żywot. Na skutek jej knowań rzeszom niewinnych obywateli Ithan wyrwano języki. Ich niemy krzyk prześladuje ją i szarpie jej sumienie, przez co nie może zaznać spokoju. ",
+            "Lubię takie historie. Chcę usłyszeć jeszcze jedną ->4",
+            "Oby nie przyszła tutaj ->END"
+        ],
+        "9" :
+        [
+            "Vena była niezwykle zdolną szwaczką i znalazła zatrudnienie na książęcym dworze. Wpierw szyła suknie dla małych księżniczek, później nakazano jej stworzyć kolekcję strojów dla stu lalek mieszkających w dziecięcym pokoju.",
+            "[ Słucham dalej. ]->10",
+            "[ Odchodzę. ] ->END"
+        ],
+        "10" :
+        [
+            "Dniami i nocami Vena dobierała koronki i jedwabie, szkicowała wykroje, szyła, pruła, szyła od nowa... Włożyła w pracę całą duszę, aż wreszcie wszystkie lalki otrzymały nowe szaty. Czegóż tam nie było? Miniaturowe królewny, strojni książęta, pazie, wojownicy i nawet czarodzieje w małych, szpiczastych kapeluszach. Wszystkie laleczki wyglądały jak żywe.",
+            "[ Słucham dalej. ]->10",
+            "[ Odchodzę. ] ->END"
+        ],
+        "11" :
+        [
+            "I były żywe, gdyż posiadły duszę Veny! Zawładnęły nią i zmusiły do zamieszkania razem z nimi w dziecięcej sypialni. Gdy jakieś dziecko budzi się ze szlochem i nie pamięta, co mu się śniło, na pewno była to nieszczęsna, marionetkowa królowa Vena na widmowym balu kukiełek.",
+            "Ta była wyjątkowo niepokojąca. Opowiedz jeszcze jakąś. ->4",
+            "Nigdy więcej lalek. ->END"
+     
+        ]
+    }
+}
+]
