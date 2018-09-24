@@ -1,0 +1,47 @@
+[
+{
+    "name" : "Dadoss",
+    "x" : "37",
+    "y" : "52",
+    "url" : "http://emargo.pl/margonem/obrazki/npc/bur/hallo15-10w.gif",
+    "dialog" :
+    {
+        "0" :
+        [
+            "Hej, chcesz zagrać w Kościanego Głupca?",
+            "Pewnie, jeśli tylko wyjaśnisz zasady. ->1",
+            "Będzie jakiś turniej? ->2",
+            "Nie, dziękuję. Nie lubię hazardu. ->END"
+        ],
+        "1" :
+        [
+            "Pewnie. Każdy z graczy ma do dyspozycji cztery kostki sześciościenne i kubek. Na początku rundy rzuca nimi sprawdzając ile oczek wypadnie na poszczególnej kostce. Gra polega na oszacowaniu ile oczek znajduje się na stole, na przykład mówisz 'Myślę, że na stole znajdują się cztery kości z wartością dwa'. Następna osoba podbija wynik lub sprawdza czy masz racje. Jeżeli na stole faktycznie znajdują się cztery lub więcej kości z taką liczbą oczek - sprawdzający odrzuca jedną ze swoich i zostaje z trzema. Jeżeli się pomyliłeś to ty oddajesz kość.",
+            "Jakie są zasady przebijania wartości? ->3",
+            "Zbyt skomplikowane jak dla mnie. ->END"
+        ],
+        "2" :
+        [
+            "Tak, główna nagroda to dwa srebrniki, zaś wpisowe to dziesięć miedziaków. Nic tylko próbować swoich sił. A, widzę że nie masz swojego kompletu. Kości dostaniesz <a href='http://www.alea.cba.pl/' target='_blank'>o tutaj.</a>",
+            "Dziękuję! Życz mi szczęścia. ->END"
+        ],
+        "3" :
+        [
+            "Wynik zawsze musi być wyższy od poprzedniego obstawianego. Albo ilość kości, która jest ważniejsza, albo wartość musi zostać podniesiona przynajmniej o jeden. Jeżeli osoba przed tobą powie 'Na stole są trzy jedynki' to twoją odpowiedzią może być albo 'Na stole są cztery jedynki' albo 'Na stole są trzy dwójki'. Nie możesz w tym wypadku obstawiać dwóch jedynek.",
+            "A jeżeli powiem 'Są tu cztery czwórki', a ktoś odpowie 'Myślę, że to raczej pięć jedynek' to będzie dobrze?. ->4",
+            "Chyba jednak zrezygnuję. ->END"
+        ],
+        "4" :
+        [
+            "Tak, ale 'jedna piątka' już nie. Liczba kości jest ważniejsza od liczby oczek.",
+            "No dobrze, spróbuję więc szczęścia. ->5",
+            "Chyba nie czuję się na siłach. ->END"
+        ],
+        "5" :
+        [
+            "Może od razu zaczniesz od turnieju? Dużo osób będzie początkujących.",
+            "Turnieju? ->2",
+            "Chyba wolę na początek coś prostszego. ->END"
+        ]
+    }
+}
+]
