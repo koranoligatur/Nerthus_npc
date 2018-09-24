@@ -1,0 +1,28 @@
+[
+{
+    "name" : "Ognisko",
+    "x" : "28",
+    "y" : "27",
+    "url" : "http://emargo.pl/margonem/obrazki/npc/obj/stoss.gif",
+    "dialog" :
+    {
+        "0" :
+        [
+            "[ Ogromne ognisko aż huczy. Płomienie migoczą pochwycając, wydawałoby się, czułym gestem kolejne gałęzie. Wszystko migocze, drży, porusza się jakby było żywe. Ciekawe czy to zasługa atmosfery wieczoru i zbyt dużej ilości wypitego wina? A może odpowiedzią jest obecność magii, którą wręcz namacalnie czuć w powietrzu. ] ",
+            "[ Nadziewasz na patyk bagienną cebulę i powoli ją pieczesz. ] ->1",
+            "[ Podnosisz z ziemi jabłko, nadziewasz je na patyk i opiekasz nad płomieniem. ] ->2",
+            "[ Siadasz na jednym z pobliskich pniów i rozkoszujesz ciepłem ognia. ] ->END"
+        ],
+        "1" :
+        [
+            "[ Mimo, że upieczona to jednak sama cebula nie nadaje się do jedzenia. Ciągle też uroczo pachnie, niczym skórzane buty noszone cały dzień przez krasnoluda. ]",
+            "Blee... To chyba nie był dobry pomysł. ->END"
+        ],
+        "2" :
+        [
+            "[ Apetyczny zapach unosi się dookoła. Gdy tylko wydaje się gotowe wyciągasz je z ogniska i z niecierpliwością czekasz aż trochę ostygnie. Gorący miąższ jest przepyszny. ]",
+            "Koniec. ->END"
+        ]
+    }
+}
+]
