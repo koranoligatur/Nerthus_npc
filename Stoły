@@ -1,0 +1,47 @@
+[
+{
+    "name" : "Stół z jedzeniem",
+    "x" : "76",
+    "y" : "33",
+    "url" : "http://i.imgur.com/zWMK4HB.gif",
+    "collision" : true,
+    "dialog" :
+    {
+        "0" :
+        [
+            "[ Stół zastawiony był różnymi lokalnymi potrawami. Poza pachnącym mięsem były też warzywa, owoce, świeżo wypieczony chleb z masłem. Kufle czekały tylko żeby znalazło się tam piwo, a w czajniczku studził się napar z owoców leśnych. Co chwila ktoś podchodził żeby nałożyć sobie porcję. ]",
+            "Koniec. ->END"
+        ]
+    }
+},
+{
+    "name" : "Stół z napojami",
+    "x" : "64",
+    "y" : "39",
+    "url" : "http://i.imgur.com/vjyZRTO.gif",
+    "collision" : true,
+    "dialog" :
+    {
+        "0" :
+        [
+            "[Pomiędzy butelkami z piwem, winem i miejscowymi, ziołowymi nalewkami przygotowanymi przez Nessę znalazło się miejsce na pieczywo czy słodkie, ciepłe jeszcze bułeczki. ]",
+            "Koniec. ->END"
+        ]
+    }
+},
+{
+    "name" : "Stół do gry",
+    "x" : "67",
+    "y" : "53",
+    "url" : "http://i.imgur.com/g6BbarL.gif",
+    "collision" : true,
+    "dialog" :
+    {
+        "0" :
+        [
+            "[ Przygotowany do rozgrywek w Kościanego Głupca. ]",
+            "Koniec ->END"
+        ]
+    }
+}
+]
