@@ -1,0 +1,64 @@
+[
+{
+    "name" : "Kalante",
+    "x" : "79",
+    "y" : "28",
+    "url" : "http://emargo.pl/margonem/obrazki/npc/kob/jadwiga.gif",
+    "dialog" :
+    {
+        "0" :
+        [
+            "Płoną góry.. ",
+            "Smocze Góry? ->1",
+            "Coś ci się przewidziało ->END"
+        ],
+        "1" :
+        [
+            "Płoną lasy...",
+            "Las Dziwów? Głuchy Las!? ->2",
+            "Niech płonie. ->END"
+        ],
+        "2" :
+        [
+            "W przedwieczornej mgle.",
+            "... ->3",
+            "Niech płonie. ->END"
+        ],
+        "3" :
+        [
+            "Idzie jesień, ech, jak mi źle!",
+            "Dalej ->4"
+        ],
+        "4" :
+        [
+            "[ Twarz kobiety wygląda na przygnębioną. ]",
+            "Coś się stało? Wszyscy wokół się bawią. Dlaczego do nich nie dołączysz? ->5",
+            "[ Odchodzę. ] ->END"
+        ],
+        "5" :
+        [
+            "Zabawa zabawą. Już niedługo ostatnie pomruki ciepła zmienią się w pluchę, zielona trawa zbutwieje, wszędzie błocko i szarość! Jak tu się cieszyć? Dzieci do wykarmienia, a ziemia tego roku nie obrodziła, im zaś tylko ubaw w głowie.",
+            "Rozumiem, aczkol... ->6",
+            "Wydaje ci się. Plony nie są najgorze, ale zawsze ktoś musi narzekać. ->END"
+        ],
+         "6" :
+        [
+            "Miły panie, nie pochylaj się nad losem biednej matki, wszak to tylko zaszkodzi twemu nastrojowi! Może zajrzysz w me siaty? Przeróżne mazidła, talizmany: do wyboru, do kolor-.. to znaczy... Czy kupisz coś ode mnie wędrowcze? Wspomożesz tym mnie i moją rodzinę. Ach, moje biedactwa, przeżyły dziś cały dzień na jednym buraku!",
+            "Współ... ->7",
+            "Nie ładnie przerywać. ->END"
+        ], 
+        "7" :
+        [
+            "Co przyniesie jutro? Co przyniesie pojutrze? Czy pojutrze będzie w ogóle nam dane? A może już jutro obudzę się wtulona w chłodne truchła moich dzieci? Albo one wtulone w truchło swej styranej życiem matki próbującej zarobić dla nich na chleb?!Sakiewka twa widzę ciężka, pewnie żyjesz w luksusach.. Takim to tylko pozazdrościć życia.",
+            "To straszne! Nie zdawałem sobie sprawy jak ciężkie może być twoje życie, jakie to brzemię niesiesz ze sobą dzień w dzień. Pokaż mi te mazidła, kupię wszystko co masz! ->8",
+            "[ Odchodzisz z grymasem na twarzy. Opowieść kobiety nie wydaje Ci się wiarygodna. ->END"
+        ], 
+        "8" :
+        [
+            "[ Zawartość siatek kobiety opróżnia się proporcjonalnie do zawartości twojej sakiewki. Odchodzisz spoglądając ze łzą w oku na handlarkę. Zza pleców słyszysz nagle głośne 'Ale go urob-...' co jednak zagłusza gwar harców przy jesiennym ognisku. Pora dołączyć do zabawy! ]",
+            "Chyba się przesłyszałem. ->END"
+            ]
+      
+    }
+}
+]
